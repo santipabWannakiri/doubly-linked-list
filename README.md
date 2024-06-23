@@ -33,6 +33,7 @@ When managing collections of data in Java, choosing the right data structure is 
 
 Choose `String[]` for fixed-size collections requiring efficient random access. Opt for `LinkedList<String>` when flexibility in size and efficient insertions/deletions are needed. Understanding these differences helps optimize performance and scalability in Java applications.
 
+## Singly Linked List and Doubly Linked List
 
 String[] vs LinkedList
 Doubly vs Singly
