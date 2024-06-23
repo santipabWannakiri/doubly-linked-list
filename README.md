@@ -67,5 +67,46 @@ However, the concepts and methods discussed can also be applied to singly linked
   - `Head to Tail`: Start at the head node and follow the "Right" references (or "next" references) from one node to the next until you reach the tail node.
   - `Tail to Head`: Start at the tail node and follow the "Left" references (or "previous" references) from one node to the previous until you reach the head node.
 
+## Main Functionalities of a Doubly Linked List
+When implementing a doubly linked list in Java, the following functionalities are essential:
+1. **Node Class**
+    - A nested class representing each node in the list.
+    - Each node contains data, a reference to the next node, and a reference to the previous node.
+
+2. **Initialization**
+    - A constructor to initialize the linked list.
+    - Typically includes a head (first node) and a tail (last node) reference.
+
+3. **Insertion Operations**
+    - **Insert at the Beginning**: Adds a new node at the start of the list.
+    - **Insert at the End**: Adds a new node at the end of the list.
+    - **Insert at a Specific Position**: Adds a new node at a specified position within the list.
+
+4. **Deletion Operations**
+    - **Delete from the Beginning**: Removes the node at the start of the list.
+    - **Delete from the End**: Removes the node at the end of the list.
+    - **Delete a Specific Node**: Removes a node at a specified position within the list.
+
+5. **Traversal**
+    - **Forward Traversal**: Traverses the list from the head to the tail.
+    - **Backward Traversal**: Traverses the list from the tail to the head.
+
+6. **Search**
+    - Searches for a node containing specific data.
+    - Returns the position or a reference to the node if found.
+
+7. **Update**
+    - Updates the data of a node at a specific position.
+
+8. **Size**
+    - Returns the number of nodes in the list.
+
+9. **IsEmpty**
+    - Checks if the list is empty.
+
+10. **Clear**
+    - Removes all nodes from the list, resetting it to an empty state.
+
+
 
 Big O, Best case, Worst, Average
