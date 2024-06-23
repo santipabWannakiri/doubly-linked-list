@@ -67,5 +67,5 @@ However, the concepts and methods discussed can also be applied to singly linked
   - `Head to Tail`: Start at the head node and follow the "Right" references (or "next" references) from one node to the next until you reach the tail node.
   - `Tail to Head`: Start at the tail node and follow the "Left" references (or "previous" references) from one node to the previous until you reach the head node.
 
-head = left , tail = right ?
+
 Big O, Best case, Worst, Average
