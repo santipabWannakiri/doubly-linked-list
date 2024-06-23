@@ -49,9 +49,20 @@ When managing collections of data in Java, linked lists offer dynamic size and e
 Because doubly linked lists offer more comprehensive functionality compared to singly linked lists, this blog will focus on implementing doubly linked lists.\
 However, the concepts and methods discussed can also be applied to singly linked lists. Understanding these differences will help you optimize performance and memory usage in Java applications.
 
+## Doubly Linked Lists
+
+<p align="center">
+  <img src="images/overall-concept.png" alt="image description" width="850" height="300">
+</p>
+
+- **Head and Tail**
+  - `Head`: The first node in the doubly linked list. It points to the second node via its "next" reference. The "previous" reference of the head node is null or None.
+  - `Tail`: The last node in the doubly linked list. It points to null or None via its "next" reference. The "previous" reference of the tail node points to the node before it.
+
+- **Left and Right**
+  - `Left`: In the context of a doubly linked list, moving left means moving towards the head of the list (following the "previous" references).
+  - `Right`: Moving right means moving towards the tail of the list (following the "next" references).
 
 
-String[] vs LinkedList
-Doubly vs Singly
 head = left , tail = right ?
 Big O, Best case, Worst, Average
