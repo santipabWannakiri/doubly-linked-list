@@ -108,9 +108,23 @@ When implementing a doubly linked list in Java, the following functionalities ar
     - Removes all nodes from the list, resetting it to an empty state.
 
 ## Challenges of implementation
-According to my experience implementing the functionalities mentioned earlier, the most challenging tasks are **inserting a specific position** and **deleting a specific node**.\
-These operations require careful management of node connections to maintain the integrity and sequence of the linked list.\
+According to my experience implementing the functionalities mentioned earlier, the most challenging tasks are\
+**inserting a specific position** and **deleting a specific node**. These operations require careful management of node connections to maintain the integrity and sequence of the linked list.\
 Therefore, I have created the images to provide an overview of the insertion parts, which it can also adopt and delete as well.\
 Please review the attached document.
+
+<p align="center">
+  <img src="images/addToFirstIndex.png" alt="image description" width="700" height="250">
+</p>
+
+<p align="center">
+  <img src="images/addToMiddleIndex.png" alt="image description" width="650" height="300">
+</p>
+
+<p align="center">
+  <img src="images/addToLastIndex.png" alt="image description" width="700" height="250">
+</p>
+
+
 
 Big O, Best case, Worst, Average
