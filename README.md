@@ -4,3 +4,8 @@ LinkedList by comparing it with String[] (Array of Strings) helps highlight the 
 
 ## LinkedList vs String[]
 
+
+String[] vs LinkedList
+Doubly vs Singly
+head = left , tail = right ?
+Big O, Best case, Worst, Average
