@@ -125,6 +125,20 @@ Please review the attached document.
   <img src="images/addToLastIndex.png" alt="image description" width="700" height="250">
 </p>
 
+## Time Complexity of Doubly Linked List Operations
 
+| Operation                | Best Case         | Average Case      | Worst Case        |
+|--------------------------|-------------------|-------------------|-------------------|
+| **Insertion**            |                   |                   |                   |
+| - At the beginning       | O(1)              | O(1)              | O(1)              |
+| - At the end             | O(1)              | O(1)              | O(1)              |
+| - At a specific position | O(1) (at head/tail) | O(n)              | O(n)              |
+| **Deletion**             |                   |                   |                   |
+| - From the beginning     | O(1)              | O(1)              | O(1)              |
+| - From the end           | O(1)              | O(1)              | O(1)              |
+| - Specific node          | O(1) (known reference) | O(n)          | O(n)              |
+| **Access/Search**        |                   |                   |                   |
+| - By value               | O(1) (first node) | O(n)              | O(n)              |
+| - By index               | O(1) (head/tail)  | O(n)              | O(n)              |
+| **Traversal**            | O(1) (single node)| O(n)              | O(n)              |
 
-Big O, Best case, Worst, Average
