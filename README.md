@@ -142,3 +142,13 @@ Please review the attached document.
 | - By index               | O(1) (head/tail)  | O(n)              | O(n)              |
 | **Traversal**            | O(1) (single node)| O(n)              | O(n)              |
 
+## How to run the project
+In this project, I wrote the unit test and set up JaCoCo to be an agent for monitoring the unit test. So, the instruction will focus on running unit tests with JaCoCo.
+
+1. Clone project
+2. Complie Spring boot app
+```mvn
+mvn clean install
+ ```
+3. Navigate to `target/site/jacoco/index.html` to view the report
+ 
